@@ -15,6 +15,7 @@
 		740E77501E6A629D00734018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740E774E1E6A629D00734018 /* LaunchScreen.storyboard */; };
 		740E775B1E6A629E00734018 /* InputContentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E775A1E6A629E00734018 /* InputContentDemoTests.m */; };
 		740E77661E6A629E00734018 /* InputContentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E77651E6A629E00734018 /* InputContentDemoUITests.m */; };
+		740E77751E6A630500734018 /* ZAInptutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740E77741E6A630500734018 /* ZAInptutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		740E77611E6A629E00734018 /* InputContentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputContentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740E77651E6A629E00734018 /* InputContentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputContentDemoUITests.m; sourceTree = "<group>"; };
 		740E77671E6A629E00734018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740E77731E6A630500734018 /* ZAInptutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAInptutView.h; sourceTree = "<group>"; };
+		740E77741E6A630500734018 /* ZAInptutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAInptutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				740E77441E6A629D00734018 /* AppDelegate.m */,
 				740E77461E6A629D00734018 /* ViewController.h */,
 				740E77471E6A629D00734018 /* ViewController.m */,
+				740E77731E6A630500734018 /* ZAInptutView.h */,
+				740E77741E6A630500734018 /* ZAInptutView.m */,
 				740E77491E6A629D00734018 /* Main.storyboard */,
 				740E774C1E6A629D00734018 /* Assets.xcassets */,
 				740E774E1E6A629D00734018 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				740E77481E6A629D00734018 /* ViewController.m in Sources */,
 				740E77451E6A629D00734018 /* AppDelegate.m in Sources */,
 				740E77421E6A629D00734018 /* main.m in Sources */,
+				740E77751E6A630500734018 /* ZAInptutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
